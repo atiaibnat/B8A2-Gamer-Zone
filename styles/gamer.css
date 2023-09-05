@@ -113,9 +113,7 @@ margin-bottom: 20px;
     justify-content: space-between;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
 }
-.banner .section-picture{
-    width: 500px;
-}
+
 .we-are-gamer-content{
     max-width: 500px;
 }
@@ -201,7 +199,142 @@ margin-bottom: 20px;
     color: #534C64;
     font-size: 20px;
 }
+/* ......play instantly.... */
+.play-instantly-section{
+    padding-top: 50px;
+    align-items: flex-start;
+    
+}
+.play-instantly{
+    padding: 50px 150px 0px 150px;
+    display: flex;
+    gap: 70pxpx;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: top left;
+    justify-content: space-between;
+  
+}
+#play-color{
+    color: #FF42A5;
+}
+.play-instantly-content{
+    max-width: 500px;
+    text-align: right;
+    gap: 50px;
+    padding-left: 220px;
+}
+
+.play-instantly-title{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    
+}
+.play-instantly-description{
+    color: #534C64;  
+    margin-bottom: 15px;
+}
+
+/* .image-container {
+    position: relative;
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-container img:nth-child(2) {
+    z-index: 1; /* This places the second image on top of the first */
 
 
 
+/* ............icon section......... */
+.icon-section{
+    padding-top: 50px;
+    
+    
+}
 
+.icon-section-container{
+    display: flex;
+    
+}
+.icon-section-card{
+    display: flex;
+     flex-direction: row;
+       padding-left: 50px; 
+       /* flex-shrink: 0; */
+    
+}
+.icon-section-card h3{
+    color: #555;
+    padding: 20px 15px;
+}
+.icon-section-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 80px 200px 0px 200px;
+    
+}
+.icon-section-card img{
+    width:95px;
+    margin-bottom: 15px;
+}
+.icon-section-container-two{
+    display: flex;
+    padding: 10px 200px 0px 200px;
+    margin-top: 10px;
+  margin-left: 50px;
+}
+.icon-section-container-two h3{
+    align-items: center;
+    justify-content: center;
+}
+.icon-section-card:hover{
+    border-radius: 40px;
+    border: 1.5px solid blue;  
+}
+#arcade{
+    border: 1.5px solid #FF42A5;
+    border-radius: 50px;
+}
+#arcade h3{
+    color: #FF42A5;
+}
+/* .............footer............ */
+.footer{
+    background-color: #181818;
+    margin-top: 130px;
+    padding: 0%;
+ }
+ .footer-info{
+         width: auto;   
+         display: inline-block;
+         text-align: center;
+         padding: 150px 400px;
+        
+ }
+ .footer-title{
+     color: white;
+     text-align: center;
+     font-size: 35px;
+     font-weight: 700;
+     }
+ .footer-description{
+         color:  rgba(255, 255, 255, 0.90);
+         text-align: center;
+         font-size: 18px;
+         font-weight: 400;
+         }
+ #flower{
+     color: #E55473;
+ }
+ .copy{
+     color: aliceblue;
+     text-align: center;
+     color: rgba(255, 255, 255, 0.40);
+ }
