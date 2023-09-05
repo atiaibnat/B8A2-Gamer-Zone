@@ -1,0 +1,207 @@
+
+body{ 
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    /* padding: 0; */
+    list-style: none;
+}
+
+/* .....nav bar...... */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:25px 150px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  
+}
+.nav-items{
+    display: flex;
+    
+}
+.nav-items li{
+    margin: 10px;
+    color: #3C354F;
+    font-size: 18px;
+    font-style: normal; 
+    font-weight: 500;
+}
+.text-primary{
+    color: #FF42A5;
+}
+.nav-title{
+     font-size: 45px;
+     font-weight: 700;
+     color: #0B0223;
+     display: flex;
+}
+.nav-title img{
+         padding: 5px;
+}
+.nav-follow-item{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+/* .......Banner........ */
+.btn-primary{
+   gap: 24px;
+    margin-top: 10px;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    color:white;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background-color: #FF42A5 ;
+ }
+ .banner{
+    padding: 30px 150px 0px 150px;
+    display: flex;
+    align-items: center;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    justify-content: space-between;
+}
+.banner .profile-picture{
+    width: 500px;
+}
+.banner-title{
+    font-size: 90px;
+    font-weight: 1500;
+    color: #474747;
+    margin-bottom: 0px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.banner-goat{
+    font-size: 85px;
+font-style: normal;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-description p,li{
+    padding-bottom: 17px;
+}
+#btn-go{
+    margin-left: 20px;
+    background-color: #4EC5F7;
+}
+/* ....we are gamer...... */
+.we-are-gamer{
+    padding: 30px 150px 0px 150px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: top left;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.banner .section-picture{
+    width: 500px;
+}
+.we-are-gamer-content{
+    max-width: 500px;
+}
+.we-are-gamer-content{
+    text-align: right;
+}
+.section-title{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.section-description{
+    color: #534C64;  
+    margin-bottom: 15px;
+}
+.we-are-gamer-content h4{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 400;
+}
+.we-are-gamer-content h3{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 1200;
+}
+/* ....online game funny videos... */
+.online-game{
+    padding: 50px 240px 0px 240px;
+}
+.online-game-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    }
+#online-game-paragraph{
+    padding: 15px 150px;
+    text-align: center;
+    color: #727272;
+    font-size: 18px;
+    }
+.online-game-description{    
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 30px;
+}
+.online-game-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* justify-content: space-around;
+    padding: 0px px; */
+}
+.online-game-picture{
+    padding: 10px ;
+}
+.online-game img{
+
+    /* width: 120%; */
+    /* gap : 24px;    */
+}
+#funny-video{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 10px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+.online-game-container p{
+    margin-top: 10px;
+    color: #534C64;
+    font-size: 20px;
+}
+
+
+
+
