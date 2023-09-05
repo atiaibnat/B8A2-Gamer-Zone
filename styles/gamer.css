@@ -307,15 +307,17 @@ margin-bottom: 20px;
 }
 /* .............footer............ */
 .footer{
-    background-color: #181818;
-    margin-top: 130px;
+    background-color: #0B0223;
+    margin-top: 120px;
     padding: 0%;
+    color: #FFF;
+    
  }
- .footer-info{
+ .footer-container{
          width: auto;   
-         display: inline-block;
+         
          text-align: center;
-         padding: 150px 400px;
+         padding: 100px 400px;
         
  }
  .footer-title{
@@ -324,17 +326,31 @@ margin-bottom: 20px;
      font-size: 35px;
      font-weight: 700;
      }
- .footer-description{
-         color:  rgba(255, 255, 255, 0.90);
-         text-align: center;
-         font-size: 18px;
-         font-weight: 400;
-         }
- #flower{
-     color: #E55473;
- }
- .copy{
+ 
+ 
+ .copy, .footer-list-two{
      color: aliceblue;
      text-align: center;
      color: rgba(255, 255, 255, 0.40);
+ }
+ .icon-name {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  
+ }
+ .footer-list , .footer-list-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 50px auto;
+ }
+ .footer-icons{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
  }
