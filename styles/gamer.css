@@ -337,7 +337,7 @@ body{
     align-items: center;
 }
 /* ...... resposive for small device........*/
-@media screen and (max-width: 576px){
+@media screen and (max-width:576px){
     nav, .nav-items , .we-are-gamer{
         flex-direction: column;
     }
@@ -426,6 +426,126 @@ body{
     }
     .image-container{
         width: 20%;    
+    }
+    .image-container{
+      
+        max-width: 100%; 
+        height: auto;
+   
+    }
+    .play-instantly-title{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .play-instantly-description{
+        text-align: center;
+        line-height: 20px;
+        padding-top: 30px;
+        font-size: 17px;
+    }
+    .footer-container{
+        width: auto;   
+        text-align: center;
+        padding: 50px 100px; 
+        align-items: center;      
+    }
+}
+/* .......... resposive for medium device........*/
+@media screen and (min-width: 576px) and (max-width: 992px){
+    nav, .nav-items , .we-are-gamer{
+        flex-direction: column;
+    }
+    .nav-items{
+        align-items: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        margin: 50px 500px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .banner-content button{
+         height : 80px;
+         width: 120px;      
+    }
+    .banner .profile-picture{
+        width: 320px;
+    }
+    .section-picture{
+        width: 350px;
+    }
+    .we-are-gamer-content{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: auto;
+    }
+    .section-title{
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 5px; 
+    }
+    .section-description{
+        text-align: justify;
+         margin-bottom: 15px;
+        line-height:15px;
+    } 
+    .we-are-gamer-content h4{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 16px; 
+    }
+    .online-game-container, .online-game-paragraph, .online-game-title{
+        flex-direction: column;
+    }
+    .online-game-paragraph, .online-game-title{
+        text-align: center;
+    }
+    #online-game-paragraph, #online-game-title{
+        padding: 20px;
+        margin: 0;
+        }
+    .online-game-container{
+        align-items: center;
+        justify-content: center;
+    }
+    .online-game{
+        padding: 0px 20px;
+    }
+    #funny-video{
+        font-size: 20px;
+        font-weight: 700px;
+    }
+    .online-game-title{
+        padding-top: 20px;
+        font-weight: 700px;
+        font-size: 20px;
+    }
+    .icon-section-container{
+      flex-wrap: wrap;
+    }
+    .play-instantly{ 
+        display: flex;
+        flex-direction: column;
+    }
+    .play-instantly-content{
+        max-width: 100px;
+        text-align: center;
+        padding: 0px;  
+        align-items: center;
+        justify-content: center;
+    }
+    .image-container{
+        width: 20%;    
+    }
+    .image-container{
+      
+        max-width: 100%; 
+        height: auto;
+   
     }
     .play-instantly-title{
         font-size: 30px;
